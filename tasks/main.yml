@@ -1,0 +1,9 @@
+---
+- name: Start Vector container
+  docker_container:
+    name: vector
+    image: "netflixoss/vector:latest"
+    state: present
+    recreate: yes
+    ports:
+      - "8081:80"
