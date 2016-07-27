@@ -1,4 +1,4 @@
-ansible-docker-vector
+ansible-docker-vector [![Build Status](https://travis-ci.org/meteorfox/ansible-docker-vector.svg?branch=master)](https://travis-ci.org/meteorfox/ansible-docker-vector)
 =========
 
 Simple role to deploy Vector using Docker.
