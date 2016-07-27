@@ -4,7 +4,7 @@
     name: vector
     image: "netflixoss/vector:latest"
     state: started
-    restart_policy: unless-stopped
+    restart_policy: always
     recreate: yes
     ports:
       - "8081:80"
