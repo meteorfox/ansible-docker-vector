@@ -3,7 +3,8 @@
   docker_container:
     name: vector
     image: "netflixoss/vector:latest"
-    state: present
+    state: started
+    restart_policy: unless-stopped
     recreate: yes
     ports:
       - "8081:80"
